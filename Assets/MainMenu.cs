@@ -15,6 +15,9 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private Text _labelA;
     [SerializeField] private Text _labelB;
 
+    [SerializeField] private Text _collisionLabel;
+    [SerializeField] private Text _triggerLabel;
+
     [SerializeField] private Text _movingA;
     [SerializeField] private Text _movingB;
 
@@ -116,5 +119,11 @@ public class MainMenu : MonoBehaviour
         _movingB.text = _movingTypes[bType];
         _colIcon.sprite = colEnabled ? _onSprite : _offSprite;
         _trigIcon.sprite = trigEnabled ? _onSprite : _offSprite;
+    }
+
+    public void ResetLabelsColor()
+    {
+        _collisionLabel.color = Color.black;
+        _triggerLabel.color = Color.black;
     }
 }

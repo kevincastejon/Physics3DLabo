@@ -1048,6 +1048,8 @@ MonoBehaviour:
   _isKinematicB: {fileID: 198650379}
   _labelA: {fileID: 1304499793}
   _labelB: {fileID: 98898467}
+  _collisionLabel: {fileID: 1373483078}
+  _triggerLabel: {fileID: 2010564947}
   _movingA: {fileID: 1171059843}
   _movingB: {fileID: 1965134025}
   _onSprite: {fileID: 21300000, guid: 6148118db3e039f4ba3f7d3320bab228, type: 3}
@@ -2668,7 +2670,7 @@ GameObject:
   - component: {fileID: 1373483079}
   - component: {fileID: 1373483078}
   m_Layer: 5
-  m_Name: CollisionA
+  m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2996,6 +2998,18 @@ MonoBehaviour:
       - m_Target: {fileID: 350869520}
         m_TargetAssemblyTypeName: ObjectsThrower, Assembly-CSharp
         m_MethodName: ResetObjects
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 278185514}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ResetLabelsColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3870,7 +3884,7 @@ GameObject:
   - component: {fileID: 2010564948}
   - component: {fileID: 2010564947}
   m_Layer: 5
-  m_Name: TriggerA
+  m_Name: Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
