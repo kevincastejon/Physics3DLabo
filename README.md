@@ -1,4 +1,4 @@
-# Unity-Physics3D-Lab
-Explore Unity Physics3D objects interactions
+# Unity-CollisionsDemo
+Explore Unity collisions
 
-[Test It Online](https://kevincastejon.github.io/Unity-Physics3D-Lab/)
+[Test It Online](https://kevincastejon.github.io/Unity-CollisionsDemo-Lab/)
